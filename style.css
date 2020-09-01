@@ -1,41 +1,92 @@
-body,
-html {
-    width: 100%;
-    height: 100%;
-    background: #E0FEF7;
-    margin: 0px;
-    padding: 0px;
-}
-
-.prima-rectangle {
-    max-width: 500px;
-    max-height: 772px;
-    height: 100%;
-    background: #FFFFFF;
-    border: 1px solid #C4E6D1;
-    border-radius: 20px;
-    text-align: center;
-    vertical-align: middle;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.prima-rectangle .name {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 75px;
-}
-
-
-/*dá visibilidade para as divs */
-
-
-/*
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+        background: #E0FEF7;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .prima-rectangle {
+        max-width: 500px;
+        max-height: 772px;
+        height: 150%;
+        background: #FFFFFF;
+        border: 1px solid #C4E6D1;
+        border-radius: 20px;
+        text-align: center;
+        vertical-align: middle;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .text {
+        color: rgba(0, 0, 0, 0.32);
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .prima-rectangle .name {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 75px;
+    }
+    
+    .binari-rectangle {
+        border: 1px solid #C4E5D1;
+        box-sizing: border-box;
+        border-radius: 20px;
+        max-width: 50%;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .first-name {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 40%;
+        color: rgba(0, 0, 0, 0.32);
+    }
+    
+    .last-name {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 40%;
+        color: rgba(0, 0, 0, 0.32);
+    }
+    
+    .info {
+        text-align: left;
+        font-size: 150%;
+        color: rgba(0, 0, 0, 0.32);
+        border: 1px solid #C4E5D1;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: 20px;
+        max-width: 100%;
+        vertical-align: middle;
+        height: 250px;
+    }
+    
+    .binari-rectangle a {
+        text-decoration: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        vertical-align: middle;
+        margin: auto;
+    }
+    /*dá visibilidade para as divs */
+    /*
 .prima-rectangle div {
     border: 1px dashed red;
 }
+
 */
