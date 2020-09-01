@@ -1,0 +1,41 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: #E0FEF7;
+    margin: 0px;
+    padding: 0px;
+}
+
+.prima-rectangle {
+    max-width: 500px;
+    max-height: 772px;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #C4E6D1;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prima-rectangle .name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+
+/*dá visibilidade para as divs */
+
+
+/*
+.prima-rectangle div {
+    border: 1px dashed red;
+}
+*/
