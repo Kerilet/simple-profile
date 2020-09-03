@@ -55,14 +55,14 @@ html {
 .first-name {
     text-align: center;
     vertical-align: middle;
-    font-size: 40%;
+    font-size: 30%;
     color: rgba(0, 0, 0, 0.32);
 }
 
 .last-name {
     text-align: center;
     vertical-align: middle;
-    font-size: 40%;
+    font-size: 30%;
     color: rgba(0, 0, 0, 0.32);
 }
 
@@ -93,6 +93,24 @@ html {
     width: 56%;
     display: inline-block;
     padding: 11px 0px;
+    color: #45A79B;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+.container .first-name {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.container .last-name {
+    grid-row: 2;
+    grid-column: 1;
 }
 
 
@@ -103,5 +121,4 @@ html {
 .prima-rectangle div {
     border: 1px dashed red;
 }
-
 */
